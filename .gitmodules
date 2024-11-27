@@ -1,0 +1,3 @@
+[submodule "externel/gateway"]
+	path = externel/gateway
+	url = git@github.com:diwenxu-seekers/gateway.git
