@@ -1,3 +1,6 @@
 [submodule "externel/gateway"]
 	path = externel/gateway
 	url = git@github.com:diwenxu-seekers/gateway.git
+[submodule "externel/smartquant"]
+	path = externel/smartquant
+	url = git@github.com:diwenxu-seekers/smartquant.git
