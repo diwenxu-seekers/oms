@@ -1,0 +1,8 @@
+Cython
+mysql-connector-python
+numpy
+pytest
+pytz
+pyzmq
+ruamel.yaml
+ujson==1.35

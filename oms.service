@@ -1,0 +1,12 @@
+[Unit]
+Description=OMS for SmartQuant
+
+[Service]
+LimitCORE=infinity
+LimitNOFILE=65535
+WorkingDirectory=/opt/oms/latest
+ExecStart=/usr/bin/sudo -u nobody start.sh
+Type=simple
+
+[Install]
+WantedBy=default.target

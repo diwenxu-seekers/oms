@@ -1,0 +1,12 @@
+instruments:
+  - uri: file:///opt/contracts/AD.json
+  - uri: file:///opt/contracts/BP.json
+  - uri: file:///opt/contracts/CL.json
+  - uri: file:///opt/contracts/EC.json
+  - uri: file:///opt/contracts/ES.json
+  - uri: file:///opt/contracts/GC.json
+  - uri: file:///opt/contracts/HSI.json
+  - uri: file:///opt/contracts/JY.json
+  - uri: file:///opt/contracts/NIY.json
+  - uri: file:///opt/contracts/NQ.json
+  - uri: file:///opt/contracts/SI.json

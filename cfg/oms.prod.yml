@@ -1,0 +1,31 @@
+general:
+  root_dir: /opt/oms/runtime
+
+logging:
+  log_filename: oms.log
+  log_path: log/
+
+ledger:
+  mysql:
+    host: wrchkprd02
+    database: oms
+    user: root
+    password: Waverider1!
+
+messaging:
+  proxy:
+    frontend: tcp://*:5555
+    backend: tcp://*:5556
+  oms:
+    num_of_workers: 5
+    connection:
+      broker: tcp://127.0.0.1:5556
+
+brokers:
+  - name: ibtws_18888
+    type: interactive_broker
+    host: ppeibtws
+    port: 4001
+    client_id: 18888
+    journal_file: /opt/oms/runtime/ibtws_18888.orders.json
+    reconnect_interval_in_sec: 5

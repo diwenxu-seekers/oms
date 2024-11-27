@@ -1,0 +1,42 @@
+general:
+  root_dir: /tmp/oms
+
+logging:
+  log_filename: oms.log
+  log_path: log/
+
+ledger:
+  mysql:
+    host: 127.0.0.1
+#    port: 3306
+    database: oms
+    user: root
+    password: Waverider1!
+
+messaging:
+  proxy:
+    frontend: tcp://*:5555
+    backend: tcp://*:5556
+  oms:
+    num_of_workers: 5
+    connection:
+      broker: tcp://127.0.0.1:5556
+
+brokers:
+#  - name: ibtws_3000
+#    type: interactive_broker
+#    host: ibtws
+#    port: 9002
+#    client_id: 3000
+  - name: ibtws_19394
+    type: interactive_broker
+    host: ibtws
+    port: 9002
+    client_id: 19394
+#  - name: ibtws_19394
+#    type: interactive_broker
+#    host: 127.0.0.1
+#    port: 9002
+#    client_id: 19394
+    journal_file: /tmp/ibtws_19394.orders.json
+    reconnect_interval_in_sec: 5

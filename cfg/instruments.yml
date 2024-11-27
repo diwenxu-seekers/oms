@@ -1,0 +1,12 @@
+instruments:
+  - uri: http://git/config/contracts/raw/master/AD.json
+  - uri: http://git/config/contracts/raw/master/BP.json
+  - uri: http://git/config/contracts/raw/master/CL.json
+  - uri: http://git/config/contracts/raw/master/EC.json
+  - uri: http://git/config/contracts/raw/master/ES.json
+  - uri: http://git/config/contracts/raw/master/GC.json
+#  - uri: http://git/config/contracts/raw/master/HSI.json
+  - uri: http://git/config/contracts/raw/master/JY.json
+  - uri: http://git/config/contracts/raw/master/NIY.json
+  - uri: http://git/config/contracts/raw/master/NQ.json
+  - uri: http://git/config/contracts/raw/master/SI.json
